@@ -6,7 +6,7 @@ export default function Home() {
    return (
       <>
          <section
-            className="absolute inset-0 h-[650px] md:h-screen bg-cover bg-center flex items-center justify-center text-white"
+            className="absolute inset-0 h-screen md:h-screen bg-cover bg-center flex items-center justify-center text-white"
             style={{ backgroundImage: `url(${heroImage})` }}
          >
             {/* Overlay for Readability */}
