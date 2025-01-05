@@ -4,7 +4,7 @@ import heroImage from "../assets/hero-3.jpg";
 export default function AboutHero() {
    return (
       <section
-         className="relative md:w-screen  py-12 lg:py-36 bg-cover bg-center flex items-center"
+         className="relative w-full py-12 lg:py-24 bg-cover bg-center flex items-center overflow-hidden"
          style={{ backgroundImage: `url(${heroImage})` }}
       >
          {/* Overlay for better text visibility */}

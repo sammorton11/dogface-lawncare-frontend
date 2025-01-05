@@ -1,12 +1,15 @@
 import ContactForm from "../components/ContactForm";
+import GoogleMap from "../components/GoogleMap";
 
 export default function Contact() {
-   return (
-      <div>
-         <div className="p-8"> <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
-            <ContactForm />
-         </div>
-      </div>
-   );
+    return (
+        <div className="flex flex-col justify-center items-center p-8 h-screen">
+            {/* Flex container for form and map */}
+            <div className="flex flex-col md:flex-row w-full justify-between items-start gap-8 h-full">
+                <ContactForm />
+                <GoogleMap />
+            </div>
+        </div>
+    );
 }
 
