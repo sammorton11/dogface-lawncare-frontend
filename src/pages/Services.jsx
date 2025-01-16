@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import ServiceHero from "../components/ServiceHero";
+import irrigation from "../assets/Irrigation.pdf";
 
 export default function Services() {
     return (
@@ -36,7 +37,7 @@ export default function Services() {
 
                     <div className="text-center">
                         <a
-                            href="/irrigation.pdf"
+                            href={irrigation}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block bg-lime-200 text-slate-900 font-medium px-6 py-3 rounded-full shadow-md hover:shadow-lg transition duration-300"
