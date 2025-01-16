@@ -1,5 +1,8 @@
 import React from 'react';
 export default function GoogleMap() {
+
+    const key = process.env.REACT_APP_GOOGLE_MAP_KEY;
+
     return (
         <div className="h-full w-full md:w-1/2 py-14">
             <iframe
@@ -8,7 +11,7 @@ export default function GoogleMap() {
                 loading="lazy"
                 allowFullScreen
                 referrerPolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAmSnOrUnIVZFcMvIlhJcJ-_ByE9WcL9cY&q=Eufaula,OK">
+                src={`https://www.google.com/maps/embed/v1/place?key=${key}=Eufaula,OK`}>
             </iframe>
         </div>
     );
