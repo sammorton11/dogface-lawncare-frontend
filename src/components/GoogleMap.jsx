@@ -11,7 +11,7 @@ export default function GoogleMap() {
                 loading="lazy"
                 allowFullScreen
                 referrerPolicy="no-referrer-when-downgrade"
-                src={`https://www.google.com/maps/embed/v1/place?key=${key}=Eufaula,OK`}>
+                src={`https://www.google.com/maps/embed/v1/place?key=${key}&q=Eufaula,OK`}>
             </iframe>
         </div>
     );
