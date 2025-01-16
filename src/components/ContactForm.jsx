@@ -1,3 +1,5 @@
+import AppointmentScheduler from "./AppointmentScheduler";
+
 export default function ContactForm() {
     return (
         <div classnName="flex flex-col w-full">
@@ -8,6 +10,7 @@ export default function ContactForm() {
                 <textarea placeholder="Message" className="w-full h-52 p-2 border rounded"></textarea>
                 <button type="submit" className="bg-lime-900 text-white p-2 rounded px-8">Send</button>
             </form>
+            <AppointmentScheduler />
         </div>
     );
 }

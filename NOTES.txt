@@ -1,0 +1,16 @@
+- EmailJS
+    - Account:
+    - Password:
+
+- Calendly
+    - Account:
+    - Password:
+
+- Need .env variables for API keys: 
+    - GoogleMaps (Contact page)
+    - EmailsJS (Contact page)
+    - Calendly (ContactForm.jsx)
+
+- Need their Facebook and Pinterest page links
+
+- Need to fix responsiveness CSS - i suck at css 

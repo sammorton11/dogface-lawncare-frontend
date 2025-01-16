@@ -24,7 +24,7 @@ export default function AboutHero() {
                 </p>
                 <Link
                     to="/contact"
-                  className="bg-lime-200 text-slate-900 font-medium px-6 py-3 rounded-full shadow-md transition duration-300"
+                    className="bg-lime-200 text-slate-900 font-medium px-6 py-3 rounded-full shadow-md transition duration-300"
                 >
                     Contact Us
                 </Link>
