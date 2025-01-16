@@ -6,7 +6,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav id="navbar" className="fixed top-0 left-0 right-0 z-10 w-full bg-white z-50 px-5">
+        <nav id="navbar" className="z-10 w-full bg-white z-50 px-5">
             <div className="relative w-full px-4 mx-auto">
                 <div className="flex items-center justify-between">
                     {/* Logo */}
@@ -61,22 +61,22 @@ export default function Navbar() {
                         {/* Menu Links */}
                         <ul className="flex flex-col p-4 md:p-0 md:flex-row space-y-2 md:space-y-0 md:space-x-12 text-center border-t md:border-0">
                             <li>
-                                <Link to="/" className="block py-2 hover:text-green-600">
+                                <Link to="/" className="block py-2 hover:text-green-600" onClick={() => setIsOpen(!isOpen)}>
                                     Home
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/about" className="block py-2 hover:text-green-600">
+                                <Link to="/about" className="block py-2 hover:text-green-600" onClick={() => setIsOpen(!isOpen)}>
                                     About
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/services" className="block py-2 hover:text-green-600">
+                                <Link to="/services" className="block py-2 hover:text-green-600" onClick={() => setIsOpen(!isOpen)}>
                                     Services
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/contact" className="block py-2 hover:text-green-600">
+                                <Link to="/contact" className="block py-2 hover:text-green-600" onClick={() => setIsOpen(!isOpen)}>
                                     Contact
                                 </Link>
                             </li>

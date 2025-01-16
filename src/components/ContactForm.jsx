@@ -2,7 +2,7 @@ import AppointmentScheduler from "./AppointmentScheduler";
 
 export default function ContactForm() {
     return (
-        <div classnName="flex flex-col w-full">
+        <div className="flex flex-col">
             <h2 className="text-3xl font-bold mb-6">Contact Us</h2>
             <form className="space-y-4 w-full">
                 <input type="text" placeholder="Name" className="w-full p-2 border rounded" />
