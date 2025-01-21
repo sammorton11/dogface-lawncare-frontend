@@ -5,7 +5,7 @@ const AppointmentScheduler = () => {
     return (
         <div className="App">
             <PopupWidget
-                url="https://calendly.com/mortonwebsolutions/free-estimate-call"
+                url="https://calendly.com/dogfacelawnllc/30min?month=2025-01"
                 rootElement={document.getElementById("root")}
                 text="Click here to schedule!"
                 textColor="#000000"
