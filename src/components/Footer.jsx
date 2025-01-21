@@ -37,7 +37,7 @@ export default function Footer() {
                <h3 className="text-xl font-bold">Follow Us</h3>
                <div className="flex space-x-4">
                   <a
-                     href="#"
+                     href="https://www.facebook.com/profile.php?id=61557682621741"
                      target="_blank"
                      rel="noopener noreferrer"
                      className="hover:text-lime-200 transition duration-200"
