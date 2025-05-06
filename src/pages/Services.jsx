@@ -24,7 +24,6 @@ export default function Services() {
                         {[
                             "Lawn Mowing & Edging",
                             "Seasonal Clean-Ups",
-                            "Fertilization & Weed Control",
                             "Landscaping Design & Installation",
                             "Shrub & Tree Trimming",
                             "Power Washing"
